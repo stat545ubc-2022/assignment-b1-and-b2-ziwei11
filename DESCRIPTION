@@ -1,0 +1,18 @@
+Package: countGroupBy
+Title: Count the number of the data with specific value within a given column
+Version: 0.1.0
+Authors@R: 
+    person("Ziwei", "Zhao", , "zhaovicky1117@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Count the number of the value choose_value in the column group_by_column of the given dataset
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    dplyr,
+    tidyr,
+    datateachr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
